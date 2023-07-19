@@ -1,0 +1,253 @@
+.head{
+    background-color: burlywood;
+    height: 25%;
+    
+    padding: 7px;
+}
+
+.head div{
+    float: right;
+    font-style: italic;
+    vertical-align: middle;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 50px;
+    color: rgb(154, 17, 17);
+}
+
+nav a{
+    font-size: 21px;
+    color:aliceblue;
+    background-color: rgb(48, 45, 45);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-align-last: center;
+    padding: 20px;
+    float:left;
+    padding-left: 240px;
+}
+
+nav a:hover{
+    color:chocolate;
+    cursor: pointer;
+}
+
+/* nav a:visited{
+    color:rgb(104, 92, 235);
+} */
+
+nav{
+    background-color: rgb(48, 45, 45);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    overflow:hidden;
+    width: 100%;
+    opacity: 0.85;
+}
+
+.imag{
+    width: 1454px;
+    opacity: 0.55;
+}
+
+.container{
+    position: absolute;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.tble{
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    background-color: rgba(246, 231, 213, 0.567);
+}
+
+.elem{
+    width: 200px;
+    text-shadow: 1px 2px grey;
+    font-size: 40px;
+    vertical-align: top;
+}
+
+.stext{
+    margin: 6px;
+    text-align: justify;
+    font-size: 30px;
+    text-shadow: none;
+    padding: 5px;
+}
+
+.stext2{
+    text-align: justify;
+    font-size: 33px;
+    text-shadow: none;
+    padding: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: rgb(212, 144, 56);
+    filter: drop-shadow(3px 3px 3px black) ;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.box1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    top: 6.4cm;
+    left: 1.2cm;
+    font-style: italic;
+    color: rgb(137, 55, 23);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    /* text-shadow: 1px 2px; */
+    filter: drop-shadow(1px 1px 1px black);
+
+}
+
+.immg{
+    position: absolute;
+    width: 10cm;
+    height: 6cm;
+    opacity: 0.90;
+    /* border: 3px solid black; */
+    border-radius: 4px;
+    filter: brightness(80%);
+    filter: drop-shadow(3px 3px 3px black);
+
+    /* box-shadow: 5px 4px rgba(43, 43, 43, 0.626); */
+}
+
+.immg:hover{
+    /* box-shadow: 7px 5px rgb(87, 87, 87); */
+    filter: drop-shadow(6px 6px 6px black);
+
+}
+
+#iimmg:hover ~ #ddish{
+    color: yellow;
+}
+
+.dimsum{
+    top: 9.5cm;
+    left: 2.5cm;
+}
+
+.gulabjamun{
+    top: 9.5cm;
+    right: 12cm;
+}
+
+.noodles{
+    left: 2.5cm;
+    top: 18cm;
+}
+
+.pizza{
+    right: 12cm;
+    top: 18cm;
+}
+
+.dimsum:hover{
+    top: 9.3cm;
+    left: 2.3cm;
+}
+
+.gulabjamun:hover{
+    top: 9.3cm;
+    right: 12.2cm;
+}
+
+.noodles:hover{
+    left: 2.3cm;
+    top: 17.8cm;
+}
+
+.pizza:hover{
+    right: 12.2cm;
+    top: 17.8cm;
+}
+
+.dish{
+    position: absolute;
+    font-size: 65px;
+    font-weight: 900;
+    color: whitesmoke;
+    -webkit-text-stroke: 1.5px black;
+}
+
+/* .dish:hover{
+    color: rgb(240, 229, 76);
+} */
+
+.dish1{
+    top: 11.5cm;
+    left: 4.25cm;
+}
+
+.dish2{
+    top: 10.75cm;
+    left: 19.25cm;
+    line-height: 62px;
+}
+
+.dish3{
+    top: 20cm;
+    left: 19.75cm;
+    font-size: 70px;
+}
+
+.dish4{
+    left: 4.5cm;
+    top: 20cm;
+}
+
+/* .dish1:hover{
+    top: 11.3cm;
+    left: 4.05cm;
+}
+
+.dish2:hover{
+    top: 10.55cm;
+    left: 19.05cm;
+    line-height: 62px;
+}
+
+.dish3:hover{
+    top: 19.8cm;
+    left: 19.55cm;
+    font-size: 70px;
+}
+
+.dish4:hover{
+    left: 4.3cm;
+    top: 19.8cm;
+} */
+
+/* .mbox{
+    margin-left: 30px;
+    margin-top: 25px;
+    position: absolute;
+    width: 26.75cm;
+    height: 19cm;
+    background-color: rgba(246, 231, 213, 0.567);
+} */
